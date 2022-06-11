@@ -17,18 +17,12 @@ function starHandler(e) {
   }
 }
 
-
 function Details() {
-
-
-
-
   const location = useLocation();
   const data = location.state.movie;
   console.log(data);
   return (
     <>
-      <Header btnType="bookshowbtn" variant="contained" buttonName="BOOK SHOW" btnType2="loginbtn" buttonName2="LOGIN" btnType3="logoutbtn" buttonName3="LOGOUT" />
       <div className="backbtn">
         <Link to="/">
           <Typography>{"<"} Back to Home</Typography>
