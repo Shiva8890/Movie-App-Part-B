@@ -3,20 +3,20 @@
   margin-left: 1%;
 }
 
-.backbtn {
-  margin: 8px 0 0 24px;
-  height: 24px;
-}
+    .backbtn {
+      margin: 8px 0 0 24px;
+      height: 24px;
+    }
 .backbtn:hover,
 .bookshow:hover {
   cursor: pointer;
 }
 .flex-container {
   display: flex;
-}
-.flex-container > div {
-  margin: 0 1%;
-}
+    }
+    .flex-container > div {
+      margin: 0 1%;
+    }
 .leftDetail {
   width: 20%;
 }

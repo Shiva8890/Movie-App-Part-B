@@ -17,12 +17,12 @@ function starHandler(e) {
   }
 }
 
-function Details() {
-  const location = useLocation();
-  const data = location.state.movie;
-  console.log(data);
-  return (
-    <>
+    function Details() {
+      const location = useLocation();
+      const data = location.state.movie;
+      console.log(data);
+      return (
+        <>
       <div className="backbtn">
         <Link to="/">
           <Typography>{"<"} Back to Home</Typography>
@@ -56,15 +56,15 @@ function Details() {
           </Typography>
           <Typography className="sixteenMargin"><strong>Artists:  </strong></Typography>
 
-          <GridList cols={2} >
-            {data.artists.map((item) => (
-              <GridListTile key={item.id}>
-                <img alt={item.id} src={item.profile_url}></img>
-                <GridListTileBar title={item.first_name + " " + item.last_name}></GridListTileBar>
-              </GridListTile>
+              <GridList cols={2} >
+                {data.artists.map((item) => (
+                  <GridListTile key={item.id}>
+                    <img alt={item.id} src={item.profile_url}></img>
+                    <GridListTileBar title={item.first_name + " " + item.last_name}></GridListTileBar>
+                  </GridListTile>
 
-            ))}
-          </GridList>
+                ))}
+              </GridList>
 
 
 

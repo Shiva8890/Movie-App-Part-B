@@ -19,15 +19,15 @@ const MenuProps = {
   },
 };
 
-export default function GenreSelect(props) {
-  const [genreName, setgenreName] = React.useState([]);
+    export default function GenreSelect(props) {
+      const [genreName, setgenreName] = React.useState([]);
 
-  const handleChange = (event) => {
-    if (!userSelection.genres.includes(event.target.value)) {
-      userSelection.genres = event.target.value;
-    }
-    setgenreName(event.target.value);
-  };
+      const handleChange = (event) => {
+        if (!userSelection.genres.includes(event.target.value)) {
+          userSelection.genres = event.target.value;
+        }
+        setgenreName(event.target.value);
+      };
 
   return (
     <>

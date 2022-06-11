@@ -3,9 +3,9 @@
   margin-top: 16px;
 }
 
-.back {
-  cursor: pointer;
-}
+    .back {
+      cursor: pointer;
+    }
 
 .cardStyle {
   width: 280px;
@@ -14,22 +14,22 @@
   text-align: left;
 }
 
-.formControl {
-  width: 240px;
-}
+    .formControl {
+      width: 240px;
+    }
 
 .marginTop16 {
   margin-top: 16px;
 }
 
-.dispNone {
-  display: none;
-}
+    .dispNone {
+      display: none;
+    }
 
 .dispBlock {
   display: block;
 }
 
-.red {
-  color: red;
-}
+    .red {
+      color: red;
+    }

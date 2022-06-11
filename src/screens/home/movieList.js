@@ -29,27 +29,27 @@ const useStyles = makeStyles((theme) => ({
 export default function SingleLineImageList(props) {
   const classes = useStyles();
 
-  return (
-    <div className={classes.root}>
-      <ImageList className={classes.imageList} rowHeight={250} cols={6}>
-        {props.moviesData.map((item) => (
+      return (
+        <div className={classes.root}>
+          <ImageList className={classes.imageList} rowHeight={250} cols={6}>
+            {props.moviesData.map((item) => (
 
-          <ImageListItem key={item.poster_url}>
-            <Link to="/details" state={{ movie: item }}>
-              <img className="image" src={item.poster_url} alt={item.title} />
-            </Link>
-            <ImageListItemBar
-              title={item.title}
-              classes={
-                {
+              <ImageListItem key={item.poster_url}>
+                <Link to="/details" state={{ movie: item }}>
+                  <img className="image" src={item.poster_url} alt={item.title} />
+                </Link>
+                <ImageListItemBar
+                  title={item.title}
+                  classes={
+                    {
 
-                }
-              }
-            />
-          </ImageListItem>
+                    }
+                  }
+                />
+              </ImageListItem>
 
-        ))}
-      </ImageList>
-    </div>
+            ))}
+          </ImageList>
+        </div>
   );
 }

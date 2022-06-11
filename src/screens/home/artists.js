@@ -1,13 +1,13 @@
 const artists = [
-    {
-        "id": "A1",
-        "first_name": "Marlon",
-        "last_name": "Brando",
-        "role_type": "ACTOR",
-        "profile_description": "Marlon Brando Jr. was an American actor and film director. He is credited with bringing realism to film acting and helping to popularize the Stanislavski system of acting having studied with Stella Adler in the 1940s. Regarded for his cultural influence on 20th century film, Brando's Academy Award-winning performances include that of Terry Malloy in On the Waterfront (1954) and Don Vito Corleone in The Godfather (1972). Brando was an activist for many causes, notably the civil rights movement and various Native American movements.",
-        "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Marlon_Brando_%28cropped%29.jpg",
-        "wiki_url": "https://en.wikipedia.org/wiki/Marlon_Brando"
-    },
+            {
+                "id": "A1",
+                "first_name": "Marlon",
+                "last_name": "Brando",
+                "role_type": "ACTOR",
+                "profile_description": "Marlon Brando Jr. was an American actor and film director. He is credited with bringing realism to film acting and helping to popularize the Stanislavski system of acting having studied with Stella Adler in the 1940s. Regarded for his cultural influence on 20th century film, Brando's Academy Award-winning performances include that of Terry Malloy in On the Waterfront (1954) and Don Vito Corleone in The Godfather (1972). Brando was an activist for many causes, notably the civil rights movement and various Native American movements.",
+                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Marlon_Brando_%28cropped%29.jpg",
+                "wiki_url": "https://en.wikipedia.org/wiki/Marlon_Brando"
+            },
     {
         "id": "A2",
         "first_name": "Al",
@@ -43,15 +43,15 @@ const artists = [
         "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Leonardo_DiCaprio_visited_Goddard_Saturday_to_discuss_Earth_science_with_Piers_Sellers_%2826105091624%29_cropped.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio"
     },
-    {
-        "id": "A6",
-        "first_name": "Joseph",
-        "last_name": "Gordon-Levitt",
-        "role_type": "ACTOR",
-        "profile_description": "Joseph Leonard Gordon-Levitt is an American actor, filmmaker, singer, and entrepreneur. As a child, Gordon-Levitt appeared in many films and TV series. He took a break from acting to study at Columbia University, but dropped out in 2004 to pursue acting again. He has since starred in  films like (500) Days of Summer, Inception, The Dark Knight Rises, G.I. Joe: The Rise of Cobra and others. For his leading performances in (500) Days of Summer and 50/50, he was nominated for the Golden Globe Award for Best Actor â€“ Motion Picture Musical or Comedy.",
-        "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Joseph_Gordon-Levitt_2013.jpg",
-        "wiki_url": "https://en.wikipedia.org/wiki/Joseph_Gordon-Levitt"
-    },
+            {
+                "id": "A6",
+                "first_name": "Joseph",
+                "last_name": "Gordon-Levitt",
+                "role_type": "ACTOR",
+                "profile_description": "Joseph Leonard Gordon-Levitt is an American actor, filmmaker, singer, and entrepreneur. As a child, Gordon-Levitt appeared in many films and TV series. He took a break from acting to study at Columbia University, but dropped out in 2004 to pursue acting again. He has since starred in  films like (500) Days of Summer, Inception, The Dark Knight Rises, G.I. Joe: The Rise of Cobra and others. For his leading performances in (500) Days of Summer and 50/50, he was nominated for the Golden Globe Award for Best Actor â€“ Motion Picture Musical or Comedy.",
+                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Joseph_Gordon-Levitt_2013.jpg",
+                "wiki_url": "https://en.wikipedia.org/wiki/Joseph_Gordon-Levitt"
+            },
     {
         "id": "A7",
         "first_name": "Matthew",

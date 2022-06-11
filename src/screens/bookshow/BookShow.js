@@ -87,20 +87,20 @@ const BookShow = (props) => {
 
     let newLanguages = [];
 
-    for (let show of originalShows) {
-      if (
-        show.theatre.city === location &&
-        show.theatre.name === event.target.value
-      ) {
-        newLanguages.push({ id: show.language, language: show.language });
-      }
-    }
+        for (let show of originalShows) {
+          if (
+            show.theatre.city === location &&
+            show.theatre.name === event.target.value
+          ) {
+            newLanguages.push({ id: show.language, language: show.language });
+          }
+        }
 
-    newLanguages = newLanguages.filter(
-      (lang, index, self) => index === self.findIndex((l) => l.id === lang.id)
-    );
-    setLanguages(newLanguages);
-  };
+        newLanguages = newLanguages.filter(
+          (lang, index, self) => index === self.findIndex((l) => l.id === lang.id)
+        );
+        setLanguages(newLanguages);
+      };
 
   const languageChangeHandler = (event) => {
     setLanguage(event.target.value);
@@ -166,27 +166,27 @@ const BookShow = (props) => {
       return;
     }
 
-    props.history.push({
-      pathname: "/confirm/" + props.match.params.id,
-      bookingSummary: {
-        location,
-        theatre,
-        language,
-        showDate,
-        tickets,
-        unitPrice,
-        availableTickets,
-        reqLocation,
-        reqTheatre,
-        reqLanguage,
-        reqShowDate,
-        reqTickets,
-        locations,
-        languages,
-        theatres,
-        showDates,
-        originalShows,
-        showId,
+      props.history.push({
+        pathname: "/confirm/" + props.match.params.id,
+        bookingSummary: {
+          location,
+          theatre,
+          language,
+          showDate,
+          tickets,
+          unitPrice,
+          availableTickets,
+          reqLocation,
+          reqTheatre,
+          reqLanguage,
+          reqShowDate,
+          reqTickets,
+          locations,
+          languages,
+          theatres,
+          showDates,
+          originalShows,
+          showId,
       },
     });
   };

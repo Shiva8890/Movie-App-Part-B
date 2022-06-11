@@ -6,9 +6,9 @@
   display: flex;
 }
 
-.confirm {
-  display: flex;
-}
+    .confirm {
+      display: flex;
+    }
 
 .confirmLeft {
   width: 40%
@@ -18,9 +18,9 @@
   margin: 16px 0px 0px 16px;
 }
 
-.confirmation {
-  text-align: center;
-}
+    .confirmation {
+      text-align: center;
+    }
 
 .cardStyle {
   width: 380px;
@@ -33,9 +33,9 @@
   margin-top: 16px;
 }
 
-.bold {
-  font-weight: bold;
-}
+    .bold {
+      font-weight: bold;
+    }
 
 .back {
   cursor: pointer;

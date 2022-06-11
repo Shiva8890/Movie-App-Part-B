@@ -5,19 +5,19 @@ import ImageListItem from "@material-ui/core/ImageListItem";
 import ImageListItemBar from "@material-ui/core/ImageListItemBar";
 import { Link } from "react-router-dom";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
-    backgroundColor: "theme.palette.background.paper",
-  },
-  container: {
-    height: "100%",
-    width: "100%",
-    overflow: "hidden",
-  },
+    const useStyles = makeStyles((theme) => ({
+      root: {
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "space-around",
+        overflow: "hidden",
+        backgroundColor: "theme.palette.background.paper",
+      },
+      container: {
+        height: "100%",
+        width: "100%",
+        overflow: "hidden",
+      },
 
   imageList: {
     width: "100%",

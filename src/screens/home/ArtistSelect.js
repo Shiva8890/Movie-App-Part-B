@@ -20,15 +20,15 @@ const MenuProps = {
 
 
 
-export default function ArtistSelect(props) {
-  const [artistName, setartistName] = React.useState([]);
+  export default function ArtistSelect(props) {
+    const [artistName, setartistName] = React.useState([]);
 
-  const handleChange = (event) => {
-    if (!userSelection.artists.includes(event.target.value)) {
-      userSelection.artists = event.target.value;
-    }
-    setartistName(event.target.value);
-  };
+    const handleChange = (event) => {
+      if (!userSelection.artists.includes(event.target.value)) {
+        userSelection.artists = event.target.value;
+      }
+      setartistName(event.target.value);
+    };
 
   return (
     <>

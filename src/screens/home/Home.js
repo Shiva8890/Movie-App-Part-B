@@ -12,12 +12,12 @@ import artists from "./artists";
 function Home() {
 
 
-  const [homeState, setHomeState] = useState({
-    data: moviesData,
-    genres: genres,
-    artists: artists,
-    userSelection: moviesData,
-  });
+      const [homeState, setHomeState] = useState({
+        data: moviesData,
+        genres: genres,
+        artists: artists,
+        userSelection: moviesData,
+      });
 
   const [movieState, setMovieState] = useState(moviesData);
 
@@ -59,27 +59,27 @@ function Home() {
   };
 
 
-  return (
-    <div>
-      {/* <Header  btnType="hiddenbtn"/> */}
-      <span className="heading">Upcoming Movies</span>
-      <SingleLineImageList moviesData={homeState.data} />
+    return (
+      <div>
+        {/* <Header  btnType="hiddenbtn"/> */}
+        <span className="heading">Upcoming Movies</span>
+        <SingleLineImageList moviesData={homeState.data} />
 
-      <div className="flex-container">
-        <div className="left">
-          <TitlebarImageList moviesData={movieState} />
-        </div>
-        <div className="right">
-          <SimpleCard
-            genres={homeState.genres}
-            artists={homeState.artists}
-            filterHandler={filterHandler}
-          />
+        <div className="flex-container">
+          <div className="left">
+            <TitlebarImageList moviesData={movieState} />
+          </div>
+          <div className="right">
+            <SimpleCard
+              genres={homeState.genres}
+              artists={homeState.artists}
+              filterHandler={filterHandler}
+            />
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 
 
 export default Home;

@@ -23,18 +23,18 @@ export let userSelection = {
 };
 
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    minWidth: 300,
-    maxWidth: 300,
-  },
-  child: {
-    minWidth: 240,
-    maxWidth: 240,
-    margin: theme.spacing.unit,
-  },
+  const useStyles = makeStyles((theme) => ({
+    root: {
+      minWidth: 300,
+      maxWidth: 300,
+    },
+    child: {
+      minWidth: 240,
+      maxWidth: 240,
+      margin: theme.spacing.unit,
+    },
 
-  
+
   bullet: {
     display: "inline-block",
     margin: "0 2px",

@@ -55,13 +55,13 @@ let moviesData = [
         status: "PUBLISHED",
         artists: [
             {
-                "id": "A3",
-                "first_name": "Christian",
-                "last_name": "Bale",
-                "role_type": "ACTOR",
-                "profile_description": "Christian Charles Philip Bale is an English actor and producer. He has starred both in blockbuster films and smaller projects from independent producers and art houses. Born in Haverfordwest, Wales, to English parents, he first caught the public eye at the age of 13, when he was cast in the starring role of Steven Spielberg's Empire of the Sun. After a string of semi-successful feature films, he portrayed Wall Street banker and serial killer Patrick Bateman in American Psycho to widespread critical acclaim. His reputation for going great lengths to portray characters in films was first noted in the psychological thriller The Machinist, where he lost 28.5 kg to play the main lead. Within six months he gained 45 kg to star as Batman in Christopher Nolan's Batman Begins",
-                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christian_Bale_2014_%28cropped%29.jpg/1024px-Christian_Bale_2014_%28cropped%29.jpg",
-                "wiki_url": "https://en.wikipedia.org/wiki/Christian_Bale"
+                        "id": "A3",
+                        "first_name": "Christian",
+                        "last_name": "Bale",
+                        "role_type": "ACTOR",
+                        "profile_description": "Christian Charles Philip Bale is an English actor and producer. He has starred both in blockbuster films and smaller projects from independent producers and art houses. Born in Haverfordwest, Wales, to English parents, he first caught the public eye at the age of 13, when he was cast in the starring role of Steven Spielberg's Empire of the Sun. After a string of semi-successful feature films, he portrayed Wall Street banker and serial killer Patrick Bateman in American Psycho to widespread critical acclaim. His reputation for going great lengths to portray characters in films was first noted in the psychological thriller The Machinist, where he lost 28.5 kg to play the main lead. Within six months he gained 45 kg to star as Batman in Christopher Nolan's Batman Begins",
+                        "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christian_Bale_2014_%28cropped%29.jpg/1024px-Christian_Bale_2014_%28cropped%29.jpg",
+                        "wiki_url": "https://en.wikipedia.org/wiki/Christian_Bale"
             },
             {
                 "id": "A4",
@@ -83,15 +83,15 @@ let moviesData = [
             "Adventure",
             "Sci-Fi"
         ],
-        duration: 148,
-        poster_url: "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
-        trailer_url: "https://www.youtube.com/watch?v=8hP9D6kZseM",
-        wiki_url: "https://en.wikipedia.org/wiki/Inception",
-        release_date: "2010-07-16T00:00:00+05:30",
-        censor_board_rating: "PG-13",
-        critics_rating: 8.8,
-        status: "PUBLISHED",
-        artists: [
+            duration: 148,
+            poster_url: "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+            trailer_url: "https://www.youtube.com/watch?v=8hP9D6kZseM",
+            wiki_url: "https://en.wikipedia.org/wiki/Inception",
+            release_date: "2010-07-16T00:00:00+05:30",
+            censor_board_rating: "PG-13",
+            critics_rating: 8.8,
+            status: "PUBLISHED",
+            artists: [
             {
                 "id": "A5",
                 "first_name": "Leonardo",
@@ -151,13 +151,13 @@ let moviesData = [
         ]
     },
     {
-        id: "M5",
-        title: "Shahid",
-        storyline: "Shahid Azmi becomes an unlikely champion of human rights, particularly for India's Muslim minority.",
-        genres: [
-            "Biography",
-            "Crime",
-            "Drama"
+            id: "M5",
+            title: "Shahid",
+            storyline: "Shahid Azmi becomes an unlikely champion of human rights, particularly for India's Muslim minority.",
+            genres: [
+                "Biography",
+                "Crime",
+                "Drama"
         ],
         duration: 129,
         poster_url: "https://upload.wikimedia.org/wikipedia/en/c/cd/Shahid_Poster_%282013%29.jpg",

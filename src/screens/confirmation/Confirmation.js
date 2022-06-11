@@ -42,12 +42,12 @@ const Confirmation = (props) => {
     setOriginalTotalPrice(price);
   }, []);
 
-  const confirmBookingHandler = () => {
-    let data = JSON.stringify({
-      coupon_code: couponCode,
-      show_id: props.location.bookingSummary.showId,
-      tickets: [props.location.bookingSummary.tickets.toString()],
-    });
+      const confirmBookingHandler = () => {
+        let data = JSON.stringify({
+          coupon_code: couponCode,
+          show_id: props.location.bookingSummary.showId,
+          tickets: [props.location.bookingSummary.tickets.toString()],
+        });
 
     fetch(props.baseUrl + "bookings", {
       method: "POST",
@@ -83,17 +83,17 @@ const Confirmation = (props) => {
         Authorization: "Bearer " + sessionStorage.getItem("access-token"),
       },
     })
-      .then((response) => response.json())
-      .then((data) => {
-        let discountValue = data.value;
-        if (discountValue !== undefined && discountValue > 0) {
-          setTotalPrice(
-            originalTotalPrice - (originalTotalPrice * discountValue) / 100
-          );
-        } else {
-          setTotalPrice(originalTotalPrice);
-        }
-      });
+          .then((response) => response.json())
+          .then((data) => {
+            let discountValue = data.value;
+            if (discountValue !== undefined && discountValue > 0) {
+              setTotalPrice(
+                originalTotalPrice - (originalTotalPrice * discountValue) / 100
+              );
+            } else {
+              setTotalPrice(originalTotalPrice);
+            }
+          });
   };
 
   const { classes } = props;
