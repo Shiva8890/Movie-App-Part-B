@@ -22,6 +22,7 @@ export let userSelection = {
   genres: [],
 };
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     minWidth: 300,
@@ -33,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing.unit,
   },
 
+  
   bullet: {
     display: "inline-block",
     margin: "0 2px",

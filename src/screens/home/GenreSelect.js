@@ -8,7 +8,6 @@ import Checkbox from "@material-ui/core/Checkbox";
 
 import { userSelection } from "./filters";
 
-
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
